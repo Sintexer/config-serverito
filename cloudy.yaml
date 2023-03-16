@@ -1,0 +1,23 @@
+# cloudy add configuration
+
+spring:
+  application:
+    name: cloudy
+
+server:
+  port: 8008
+
+---
+spring:
+  profiles: dev, qa
+
+server:
+  port: 11111
+
+---
+spring:
+  profiles: prod
+  application:
+    name: cloudy-prod
+
+
