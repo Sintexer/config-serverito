@@ -1,0 +1,5 @@
+app1:
+  custom:
+    property: 100
+
+server.port: 9000
